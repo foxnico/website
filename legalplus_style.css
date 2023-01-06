@@ -1,0 +1,134 @@
+/*Résolution par défaut*/
+
+.legalplus-group {}
+
+.legalplus-group-title {
+    padding: 1% 0 1% 0;
+    margin: 0;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    box-shadow: 0.2rem 0.2rem 0.2rem #aaa;
+}
+
+.legalplus-group-title-content {
+    text-align: center;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.legalplus-group-content {
+    column-count: 3;
+    column-gap: 0;
+}
+
+.legalplus-numeric-order {
+    border: solid #dfdcdc;
+    border-width: thin;
+    display: inline-block;
+    padding: 0;
+    margin: 1%;
+    box-shadow: 0.5rem 0.5rem 0.7rem #aaa;
+}
+
+.legalplus-numeric-content {
+    margin: 5% 5% 0.5% 5%;
+    padding: 1%;
+}
+
+.legalplus-numeric-header {
+    text-align: center;
+    border-bottom: solid;
+    border-width: thin;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.legalplus-numeric-header-logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    display:block;
+    margin-bottom: 1rem;
+}
+
+.legalplus-numeric-header .legalplus-numeric-first-line {
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+.legalplus-numeric-surtitle {
+    text-align: center;
+    border-bottom: solid;
+    border-width: thin;
+    margin-top: 0.5%;
+    padding-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-bottom: 1%;
+}
+
+.legalplus-numeric-surtitle .legalplus-numeric-first-line  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+}
+
+.legalplus-numeric-title {
+    display: block;
+    text-align: center;
+    border-bottom: solid;
+    border-width: thin;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.legalplus-numeric-title-content {
+    font-size: 1.7rem;
+}
+
+.legalplus-numeric-subtitle-content {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.legalplus-numeric-metadatas {
+    background-color: #91c45c;
+    color: white;
+    border-top: thick double;
+    margin: 0;
+    padding: 1%;
+}
+
+.legalplus-numeric-metadatas-top {
+    background-color: #91c45c;
+    color: white;
+    border-bottom: thick double;
+    margin: 0;
+    padding: 1%;
+}
+
+.legalplus-numeric-metadatas-bottom {
+    background-color: #91c45c;
+    color: white;
+    border-top: thick double;
+    margin: 0;
+    padding: 1%;
+}
+
+.legalplus-numeric-metadatas-element {
+}
+
+@media screen and (max-width: 1024px) {
+    .legalplus-group-content {
+        column-count: 1;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .legalplus-group-content {
+        column-count: 1;
+    }
+}
