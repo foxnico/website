@@ -20,7 +20,7 @@ Text Domain: jnews
 	max-width:300px !important;
 }
 .entete_annonce hr{
-	border-color:#00AEEF;
+	border-color:#715f51;
 }
 .px-3{
 	padding-left:16px !important;
@@ -31,7 +31,7 @@ Text Domain: jnews
 }
 .wpbdp-listing-excerpt{
 	background-color:#DCF0FB;
-	border:1px solid #8DD3F1;
+	border:1px solid #91c45c;
 }
 .col-6{
 	width:50%;
@@ -74,11 +74,11 @@ div#wpbdp-listings-list > div:not(:last-of-type) .listing-details{
 	Width:calc(100% + 20px);
 	padding:10px;
 	text-align:center;
-	background-color:rgba(0, 174, 239,0.8);
-	background: rgb(0,174,239);
-	background: -moz-linear-gradient(0deg, rgba(0,174,239,1) 0%, rgba(0,212,255,0.515919746804972) 100%);
-	background: -webkit-linear-gradient(0deg, rgba(0,174,239,1) 0%, rgba(0,212,255,0.515919746804972) 100%);
-	background: linear-gradient(0deg, rgba(0,174,239,1) 0%, rgba(0,212,255,0.515919746804972) 100%);
+	background-color:rgba(0, 239, 24, 0.8);
+	background: rgba(0, 239, 24, 0.8);
+	background: -moz-linear-gradient(0deg, rgba(0, 239, 24, 0.8) 0%, rgba(0,212,255,0.515919746804972) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(0, 239, 24, 0.8) 0%, rgba(0,212,255,0.515919746804972) 100%);
+	background: linear-gradient(0deg, rgba(0, 239, 24, 0.8) 0%, rgba(0,212,255,0.515919746804972) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00aeef",endColorstr="#00d4ff",GradientType=1);
 	color:#FFF;
 	margin-left:-10px;
@@ -87,7 +87,7 @@ div#wpbdp-listings-list > div:not(:last-of-type) .listing-details{
 	font-size: 20px;
 }
 .lire:hover {
-	background: rgb(0,174,239);
+	background: rgb(0, 239, 24, 0.8);
 }
 .position-relative{
 	position:relative;
