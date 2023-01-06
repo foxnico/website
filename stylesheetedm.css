@@ -1,0 +1,182 @@
+/*
+Theme Name: JNews
+Version: 7.1.0
+Theme URI: http://themeforest.net
+Description: JNews
+Author: Jegtheme
+Author URI: http://jegtheme.com/
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:  custom-background,custom-colors, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: jnews
+*/
+.texteCentre{
+	text-align:center;
+}
+.corps{
+	margin-top:100px;
+}
+.pdf-justificatif img{
+	max-width:300px !important;
+}
+.entete_annonce hr{
+	border-color:#00AEEF;
+}
+.px-3{
+	padding-left:16px !important;
+	padding-right:16px !important;
+}
+.img-fluid img{
+	max-width: 100% !important;
+}
+.wpbdp-listing-excerpt{
+	background-color:#DCF0FB;
+	border:1px solid #8DD3F1;
+}
+.col-6{
+	width:50%;
+}
+.row{
+	display:flex;
+}
+.wpb_wrapper .advanced-search-link,.single-wpbdp_listing .listing-thumbnail,.wpbdp-listings-list .listing-thumbnail,.single-wpbdp_listing .extra-images, .wpbdp-listing-single .extra-images{
+	display:none !important;
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;
+}
+.font-bold{
+	font-weight:bold !important;
+}
+ul.wpbdp-categories {
+	display:flex;
+}
+ul.wpbdp-categories .cat-item {
+	width: 25%;
+}
+div#wpbdp-listings-list > div:not(:last-of-type) {
+    width: 30% !important;
+	max-height: 400px;
+	overflow: hidden;
+}
+div#wpbdp-listings-list > div:not(:last-of-type) .listing-details{
+	max-height: 300px;
+}
+.wpbdp-listing-excerpt{
+	cursor: pointer;
+}
+.lire{
+	position:absolute;
+	bottom : 0;
+	Width:calc(100% + 20px);
+	padding:10px;
+	text-align:center;
+	background-color:rgba(0, 174, 239,0.8);
+	background: rgb(0,174,239);
+	background: -moz-linear-gradient(0deg, rgba(0,174,239,1) 0%, rgba(0,212,255,0.515919746804972) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(0,174,239,1) 0%, rgba(0,212,255,0.515919746804972) 100%);
+	background: linear-gradient(0deg, rgba(0,174,239,1) 0%, rgba(0,212,255,0.515919746804972) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00aeef",endColorstr="#00d4ff",GradientType=1);
+	color:#FFF;
+	margin-left:-10px;
+	margin-right:-10px;
+	font-weight:bold;
+	font-size: 20px;
+}
+.lire:hover {
+	background: rgb(0,174,239);
+}
+.position-relative{
+	position:relative;
+}
+.text-center-max-width{
+	max-width:400px;
+	text-align:center;
+	margin:auto;
+}
+
+@media (max-width:767.99px){
+	div#wpbdp-listings-list > div:not(:last-of-type) {
+		width: 100% !important;
+	}
+	ul.wpbdp-categories .cat-item {
+		width: 100%;
+	}
+	ul.wpbdp-categories {
+		margin-left:0 !important;
+		display:block;
+	}
+}
+.listing-details.cf, .listing-details{
+	text-align:justify !important;
+}
+.listing-details img{
+	max-width:150px;
+}
+ul.wpbdp-categories > li > a {
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.entete, .surtitre, .entete p, .surtitre p {
+	text-align: center;
+	font-weight: bold !important;
+}
+.entete p, .surtitre p, .corps p {
+	margin: 0;
+}
+
+#legalplus-plugin {
+  margin-top: 50px;
+}
+
+.legalplus-group-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.legalplus-numeric-header {
+  display: flex;
+  align-items: start;
+  margin-bottom:  20px;
+  justify-content: space-around;
+}
+.legalplus-numeric-header p{
+	font-weight:bold !important;
+	margin-bottom:10px !important;
+}
+
+.legalplus-numeric-metadatas.legalplus-numeric-metadatas-top {
+  max-width: 208px;
+  margin: auto;
+    margin-bottom: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.legalplus-numeric-order {
+  max-width: 31%;
+  padding: 10px;
+  background-color: #DCF0FB;
+  border: 1px solid #8DD3F1;
+  margin-bottom : 32px;
+}
+
+@media(max-width:1020px){
+	.legalplus-numeric-order {
+	  max-width: 47%;
+	}
+}
+@media(max-width:666px){
+	.legalplus-numeric-order {
+	  max-width: 100%;
+	}
+}
+
+.legalplus-numeric-header-logo {
+  max-width: 150px;
+  margin-right: 17px;
+}
